@@ -47,7 +47,7 @@ end
 
 File_path 	=		ARGV[0] 		|| "names.txt"
 Out_path 	= 		ARGV[1] 		|| "groups.txt"
-Group_size 	= 		ARGV[2].to_i 	|| 4
+Group_size 	= 		ARGV[2].to_i 		|| 4
 
 Names = get_names(File_path)
 rand_names = randomize_names(Names)
